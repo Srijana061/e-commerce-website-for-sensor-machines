@@ -108,20 +108,36 @@ body {
 
 #hero h4 {
     padding-bottom: 15px;
-    color: hsla(64, 91%, 49%, 0.986);
+    color: peru
 }
 
 
 #hero h1 {
-    color: darkgoldenrod
+    color: darkgoldenrod;
+    font-size: 30px;
+    
+    
 }
 
 
 #hero h2 {
-    color:darkgoldenrod
+    color:darkgoldenrod;
+    font-size: 26px;
 }
 
 
 #hero p {
     color:  darkorange
 }
+
+#hero button {
+    background-color: lightblue;
+    color: darkgreen;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+}
+
