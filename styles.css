@@ -107,7 +107,7 @@ body {
 /* Home Page */
 #hero{
     background-image: url("images/hero4.png");
-    height: 90vh;
+    height: 70vh;
     width: 100%;
     background-size: cover;
     background-position: top 25% right 0;
@@ -414,5 +414,43 @@ footer .copyright {
    padding: 0 80px;
    background-position: top 30% right 30%;
     
+}
+
+#product1 .pro-container {
+    justify-content: center;
+}
+
+#product1 .pro{
+    margin: 15px;
+    
+}
+
+/* For mobile screen */
+
+@media (max-width: 477px) {
+    #header {
+        padding: 10px 30px;
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+
+    h2{
+        font-size: 32px;
+    }
+
+    #hero {
+        padding: 0 20px; 
+        background-position: 55%;
+    }
+
+    #product1 .pro {
+        width: 100%;
+    }
+
+    footer .copyright {
+        text-align: start;
+    }
 }
 }
