@@ -559,6 +559,10 @@ color: rgb(74, 187, 187);
 
     /* Blog Page */
 
+    #page-header.blog-header{
+        background-image: url("images/banner.png");
+    }
+
     
     #blog {
         padding: 150px 150px 0 150px;
@@ -568,6 +572,7 @@ color: rgb(74, 187, 187);
         display: flex;
         align-items: center;
         width: 100%;
+        padding-bottom: 90px;
     }
 
     #blog .blog-img {
@@ -590,6 +595,75 @@ color: rgb(74, 187, 187);
         font-size: 11px;
         color: #000;
         font-weight: 700;
+        position: relative;
+        transition: 0.3s;
     }
+
+    #blog .blog-details a::after {
+        content: "";
+        width: 50px;
+        height: 1px;
+        background-color: #000;
+        position:absolute;
+        top: 4px;
+        right: -60px;
+    }
+
+    #blog .blog-details a:hover{
+        color: #088178;
+    }
+
+    #blog .blog-details a:hover::after{
+        background-color: #088178;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    /* Additional styling for the form */
+.modal-content {
+    border-radius: 10px;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-header .close {
+    margin: -1rem -1rem -1rem auto;
+}
+
+.modal-body {
+    padding: 2rem;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.btn-block {
+    margin-top: 1rem;
+}
+
+
 }
 }
