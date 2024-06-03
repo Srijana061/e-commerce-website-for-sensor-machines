@@ -639,7 +639,7 @@ color: rgb(74, 187, 187);
 
 
 
-    /* Additional styling for the form */
+   /* Additional styling for the sign in and sign up forms */
 .modal-content {
     border-radius: 10px;
 }
@@ -662,6 +662,11 @@ color: rgb(74, 187, 187);
 
 .btn-block {
     margin-top: 1rem;
+}
+
+.invalid-feedback {
+    display: none;
+    color: red;
 }
 
 
