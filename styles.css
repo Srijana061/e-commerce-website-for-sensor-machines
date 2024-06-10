@@ -563,17 +563,22 @@ color: rgb(74, 187, 187);
         background-image: url("images/banner.png");
     }
 
-    
     #blog {
         padding: 150px 150px 0 150px;
     }
 
-    #blog .blog-box {
+    
+   
+
+    #blog .blog-box{
         display: flex;
         align-items: center;
         width: 100%;
+        position: relative;
         padding-bottom: 90px;
     }
+
+    
 
     #blog .blog-img {
         width: 50%;
@@ -588,6 +593,7 @@ color: rgb(74, 187, 187);
 
     #blog .blog-details {
         width: 50%;
+        
     }
 
     #blog .blog-details a {
@@ -617,6 +623,22 @@ color: rgb(74, 187, 187);
         background-color: #088178;
     }
 
+    #blog .blog-box h1{
+        position: absolute;
+        top: -40px;
+        left: 0;
+        font-size: 70px;
+        font-weight: 700;
+        color: #c9cbce;
+        z-index: -9;
+    }
+
+
+    /* About Page */
+    #page-header.about-header {
+        background-image: url("images/banner.png");
+
+    }
 
 
 
