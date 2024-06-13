@@ -140,7 +140,8 @@ body {
 
 
 #hero p {
-    color:  darkorange
+    color:  darkorange;
+    
 }
 
 #hero button {
@@ -593,6 +594,15 @@ color: rgb(74, 187, 187);
 }
 
 
+
+
+
+
+
+
+
+
+
 /* Start Media Query */
 @media (max-width:799px) {
     #navbar {
@@ -707,6 +717,19 @@ color: rgb(74, 187, 187);
         width: 100%;
     }
 
+    /*About Page*/
+    #about-head {
+        flex-direction: column;
+    }
+
+    #about-head img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #about-head div {
+        padding-left: 0px;
+    }
 }
 
    
