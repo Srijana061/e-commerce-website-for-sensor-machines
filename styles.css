@@ -675,6 +675,18 @@ color: rgb(74, 187, 187);
 
 
 
+#form-details .people div{
+    padding-bottom: 25px;
+}
+
+#form-details .people div img{
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+
 
 
 
