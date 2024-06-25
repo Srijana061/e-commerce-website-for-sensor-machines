@@ -668,6 +668,11 @@ color: rgb(74, 187, 187);
     border: 1px solid #e1e1e1;
 }
 
+#form-details form button{
+    background-color: #088178;
+    color: #fff;
+}
+
 
 
 
