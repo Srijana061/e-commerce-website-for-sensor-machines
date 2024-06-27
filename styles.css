@@ -862,6 +862,11 @@ color: rgb(74, 187, 187);
 
     #contact-details .details{
         width: 100%;
+        margin-bottom: 30px;
+    }
+
+    #contact-details .map {
+        width:100%;
     }
 }
 
