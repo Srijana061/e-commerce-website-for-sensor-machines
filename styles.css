@@ -781,7 +781,17 @@ color: rgb(74, 187, 187);
     margin: 15px;
     
 }
+
+/*Contact Page */
+#form-details {
+    padding: 40px;
 }
+#form-details form{
+    width: 50%;
+}
+
+}
+
 
 
 /* For mobile screen */
@@ -842,6 +852,16 @@ color: rgb(74, 187, 187);
 
     #about-head div {
         padding-left: 0px;
+    }
+
+
+    /* Contact Page */
+    #contact-details {
+        flex-direction: column;
+    }
+
+    #contact-details .details{
+        width: 100%;
     }
 }
 
