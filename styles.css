@@ -868,6 +868,12 @@ color: rgb(74, 187, 187);
     #contact-details .map {
         width:100%;
     }
+
+    #form-details {
+        margin: 10px;
+        padding: 30px 10px;
+        flex-wrap: wrap;
+    }
 }
 
    
