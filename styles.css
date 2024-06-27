@@ -874,6 +874,11 @@ color: rgb(74, 187, 187);
         padding: 30px 10px;
         flex-wrap: wrap;
     }
+
+    #form-details form {
+        width:100%;
+        margin-bottom: 30px;
+    }
 }
 
    
