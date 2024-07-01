@@ -750,6 +750,12 @@ color: rgb(74, 187, 187);
     padding: 10px 5px 10px 15px;
 }
 
+#cart table thead {
+    border: 1px solid #e2e9e1;
+    border-left: none;
+    border-right: none;
+}
+
 
 
 
