@@ -756,6 +756,13 @@ color: rgb(74, 187, 187);
     border-right: none;
 }
 
+#cart table thead td{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 18px 0;
+}
+
 
 
 
