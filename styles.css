@@ -711,6 +711,23 @@ color: rgb(74, 187, 187);
 }
 
 
+/* Cart Page */
+#cart table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+
+#cart table img{
+    width: 70px;
+}
+
+#cart table td:nth-child(1){
+    width: 100px;
+    text-align:center;
+}
+
 
 
 
