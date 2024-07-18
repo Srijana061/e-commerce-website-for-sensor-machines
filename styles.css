@@ -772,6 +772,12 @@ color: rgb(74, 187, 187);
     font-size: 13px;
 }
 
+#cart-add {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 
 
 
