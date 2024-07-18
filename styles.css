@@ -712,6 +712,12 @@ color: rgb(74, 187, 187);
 
 
 /* Cart Page */
+
+#cart {
+    overflow-x: auto;
+}
+
+
 #cart table{
     width: 100%;
     border-collapse: collapse;
@@ -784,7 +790,8 @@ color: rgb(74, 187, 187);
 }
 
 
-#coupon h3 {
+#coupon h3,
+#subtotal h3 {
     padding-bottom: 15px;
 }
 
@@ -796,7 +803,8 @@ color: rgb(74, 187, 187);
     border: 1px solid #e2e9e1;
 }
 
-#coupon button {
+#coupon button,
+#subtotal button {
     background-color: #088178;
     color: #fff;
     padding: 12px 20px;
@@ -815,6 +823,12 @@ color: rgb(74, 187, 187);
     margin-bottom: 20px;
 }
 
+#subtotal table td {
+    width: 50%;
+    border: 1px solid #e2e9e1;
+    padding: 10px;
+    font-size: 13px;
+}
 
 
 
@@ -981,6 +995,19 @@ color: rgb(74, 187, 187);
     #form-details form {
         width:100%;
         margin-bottom: 30px;        
+    }
+    /* Cart Page */
+    #cart-add {
+        flex-direction: column;
+    }
+
+    #coupon {
+        width: 100%;
+    }
+
+    #subtotal {
+        width: 100%;
+        padding: 20px;
     }
 }
 
